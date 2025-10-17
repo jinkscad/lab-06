@@ -21,5 +21,7 @@ public class City implements Comparable {
         City city = (City) o;
         return this.city.compareTo(city.getCityName()); // this.city refers to the city name
     }
+
+
 }
 

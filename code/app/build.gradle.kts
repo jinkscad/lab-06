@@ -32,7 +32,7 @@ android {
 
     testOptions {
         unitTests.isIncludeAndroidResources = true
-    }   
+    }
 }
 
 dependencies {
@@ -45,5 +45,5 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.6.1")
-        //implementation(files("/Users/jinkasai/Library/Android/sdk/platforms/android-36/android.jar"))
+    implementation(files("/Users/jinkasai/Library/Android/sdk/platforms/android-36/android.jar"))
 }
