@@ -31,7 +31,7 @@ public class CityList {
         return list;
     }
 
-    public hasCity(City city){
+    public void hasCity(City city){
         
     }
 }
